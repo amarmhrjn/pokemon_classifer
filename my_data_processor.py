@@ -1,10 +1,10 @@
 import json
 
 # process the results to get the attributes
-def process(rdata):
+def process(res_data):
     #print("process")
 
-    res_data = json.loads(rdata.text)
+    #res_data = json.loads(rdata.text)
     num_attributes = len(res_data)
 
     # collect attributes for single row
