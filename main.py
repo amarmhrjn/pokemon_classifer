@@ -3,7 +3,7 @@ import my_data_processor
 import my_pokemon_algo
 
 # train the multi-class classifier
-my_data_processor.train()
+my_pokemon_algo.train()
 
 # Get the data from PokeAPI
 resp = requests.get("https://pokeapi.co/api/v2/pokemon/pikachu").json()
